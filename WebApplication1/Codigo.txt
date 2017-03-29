@@ -1,0 +1,35 @@
+    <form id="form1" runat="server">
+       
+
+        <div>
+
+            <label for="txtValor1">Gastos</label> <br />
+            <asp:TextBox Text="" runat="server" ReadOnly="true" ID="txtValor1"/> <br />
+
+            <label for="txtValor2">Entrada</label> <br />
+            <asp:TextBox Text="" runat="server" ReadOnly="true" ID="txtValor2"/> <br />
+
+            <label for="txtValor3">Lucro</label> <br />
+            <asp:TextBox Text="" runat="server" ReadOnly="true" ID="txtValor3"/> <br />
+      
+           <asp:Button Text="Consulta Geral" ID="btnBotao" runat="server" OnClick="btnBotao_Click" />
+                                           
+       </div>
+
+        <div>
+
+            <label for="txtComanda">Comanda</label> <br />
+            <asp:TextBox Text="" runat="server" ReadOnly="false" ID="txtComanda"/> <br />
+
+            <label for="txtValorComanda">Valor Comanda</label> <br />
+            <asp:TextBox Text="" runat="server" ReadOnly="true" ID="txtValorComanda"/> <br />
+
+            <br />
+
+            <asp:Button Text="Consulta Comanda" ID="btnComanda" runat="server" OnClick="btnComanda_Click" />
+         
+        </div>
+
+
+
+    </form>
